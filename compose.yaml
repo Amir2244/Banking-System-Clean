@@ -1,0 +1,6 @@
+﻿services:
+  bankingsystem:
+    image: bankingsystem
+    build:
+      context: .
+      dockerfile: BankingSystem/Dockerfile
