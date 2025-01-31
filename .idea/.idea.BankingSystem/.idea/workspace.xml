@@ -4,12 +4,82 @@
     <projectFile profileName="http">BankingSystem/BankingSystem.csproj</projectFile>
     <projectFile profileName="https">BankingSystem/BankingSystem.csproj</projectFile>
     <projectFile kind="Docker">BankingSystemWeb/BankingSystemWeb.csproj</projectFile>
+    <projectFile profileName="IIS Express">BankingSystemWeb/BankingSystemWeb.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0278bc-a1e1-41ba-8022-df1054ead3dd" name="Changes" comment="" />
+    <list default="true" id="af0278bc-a1e1-41ba-8022-df1054ead3dd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BankingSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BankingSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/ApplicationServiceRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/ApplicationServiceRegistration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/BankingSystem.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/BankingSystem.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Behaviors/ValidationBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Behaviors/ValidationBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Commands/Accounts/CreateAccountCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Commands/Accounts/CreateAccountCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Commands/Accounts/CreateAccountCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Commands/Accounts/CreateAccountCommandValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Commands/Accounts/Login/LoginUserCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Commands/Accounts/Login/LoginUserCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Commands/Accounts/Register/RegisterUserCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Commands/Accounts/Register/RegisterUserCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Commands/Common/TransactionalBaseRequestHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Commands/Common/TransactionalBaseRequestHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Commands/Deposit/CreateDepositTransactionRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Commands/Deposit/CreateDepositTransactionRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Commands/Deposit/DepositCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Commands/Deposit/DepositCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Commands/Deposit/DepositCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Commands/Deposit/DepositCommandValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Commands/Transfer/CreateTransferTransactionRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Commands/Transfer/CreateTransferTransactionRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Commands/Transfer/TransferCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Commands/Transfer/TransferCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Commands/Transfer/TransferCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Commands/Transfer/TransferCommandValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Commands/Withdraw/CreateWithdrawTransactionRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Commands/Withdraw/CreateWithdrawTransactionRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Commands/Withdraw/WithdrawCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Commands/Withdraw/WithdrawCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Commands/Withdraw/WithdrawCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Commands/Withdraw/WithdrawCommandValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Contracts/IAccountRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Contracts/IAccountRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Contracts/ITransactionRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Contracts/ITransactionRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Contracts/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Contracts/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/DTOs/LoginDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/DTOs/LoginDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/DTOs/RegisterDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/DTOs/RegisterDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/DTOs/Responses/AuthResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/DTOs/Responses/AuthResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/DTOs/Responses/ErrorResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/DTOs/Responses/ErrorResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/DTOs/Responses/LoginResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/DTOs/Responses/LoginResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/DTOs/TransactionDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/DTOs/TransactionDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Exceptions/ValidationException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Exceptions/ValidationException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Profiles/MappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Profiles/MappingProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetAccountById/GetAccountByIdQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetAccountById/GetAccountByIdQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetAccountById/GetAccountByIdQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetAccountById/GetAccountByIdQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetAllAccounts/GetAllAccountsQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetAllAccounts/GetAllAccountsQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetAllTransactions/GetAllTransactionsQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetAllTransactions/GetAllTransactionsQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetAllTransactions/GetAllTransactionsQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetAllTransactions/GetAllTransactionsQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetTransactionById/GetTransactionsByAccountIdQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetTransactionById/GetTransactionsByAccountIdQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetTransactionsByAccountId/GetTransactionsByAccountIdQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetTransactionsByAccountId/GetTransactionsByAccountIdQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetTransactionsByAccountId/GetTransactionsByAccountIdQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetTransactionsByAccountId/GetTransactionsByAccountIdQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetUserAccount/GetAccountByIdQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Queries/GetUserAccount/GetAccountByIdQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Services/ICurrentUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Services/ICurrentUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Application/Services/IIdentityService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Application/Services/IIdentityService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Domain/BankingSystem.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Domain/BankingSystem.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Domain/Entities/Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Domain/Entities/Account.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Domain/Entities/Transacition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Domain/Entities/Transacition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Domain/Enums/TransactionType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Domain/Enums/TransactionType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Infrastructure/BankingSystem.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Infrastructure/BankingSystem.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Infrastructure/Contexts/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Infrastructure/Contexts/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Infrastructure/Contexts/IdentityAppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Infrastructure/Contexts/IdentityAppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Infrastructure/DAOs/AccountDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Infrastructure/DAOs/AccountDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Infrastructure/DAOs/TransactionDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Infrastructure/DAOs/TransactionDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Infrastructure/InfrastructureServiceRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Infrastructure/InfrastructureServiceRegistration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Infrastructure/Migrations/20250124113808_Initial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Infrastructure/Migrations/20250124113808_Initial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Infrastructure/Migrations/Identity/20250124114122_Initial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Infrastructure/Migrations/Identity/20250124114122_Initial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Infrastructure/Persistence/AccountRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Infrastructure/Persistence/AccountRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Infrastructure/Persistence/TransactionRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Infrastructure/Persistence/TransactionRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Infrastructure/Persistence/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Infrastructure/Persistence/UnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Infrastructure/Profiles/MappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Infrastructure/Profiles/MappingProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Infrastructure/Services/CurrentUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Infrastructure/Services/CurrentUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.Infrastructure/Services/IdentityService .cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.Infrastructure/Services/IdentityService .cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystem.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystemWeb/Controllers/AccountsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystemWeb/Controllers/AccountsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystemWeb/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystemWeb/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystemWeb/Middleware/ExceptionHandlingMiddleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystemWeb/Middleware/ExceptionHandlingMiddleware.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystemWeb/Models/Account.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystemWeb/Models/BankingDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystemWeb/Models/Transaction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystemWeb/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystemWeb/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystemWeb/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystemWeb/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystemWeb/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystemWeb/appsettings.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +91,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Amir2244&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Amir2244/Banking-System-Clean.git&quot;,
+    &quot;accountId&quot;: &quot;7c1a31b6-634c-45e0-9e84-4be4397b4e3d&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ff6fe24f5944b35a381217736eded33290038/38/d1493c52/EntityFrameworkQueryableExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ff6fe24f5944b35a381217736eded33290038/6f/73179f04/ModelBuilder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -47,39 +129,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.BankingSystem: http.executor": "Run",
-    ".NET Launch Settings Profile.BankingSystem: https.executor": "Run",
-    "RunOnceActivity.AccountsToCodyMigration": "true",
-    "RunOnceActivity.ChatTagsLlmMigration": "true",
-    "RunOnceActivity.CodyAccountHistoryMigration": "true",
-    "RunOnceActivity.CodyAccountsIdsRefresh": "true",
-    "RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount": "true",
-    "RunOnceActivity.CodyConvertUrlToCodebaseName": "true",
-    "RunOnceActivity.CodyHistoryLlmMigration": "true",
-    "RunOnceActivity.CodyMigrateChatHistory-v2": "true",
-    "RunOnceActivity.CodyProjectSettingsMigration": "true",
-    "RunOnceActivity.DeprecatedChatLlmMigration": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.ToggleCodyToolWindowAfterMigration": "true",
-    "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "23.1.0",
-    "javascript.nodejs.core.library.typings.version": "22.10.7",
-    "last_opened_file_path": "C:/Users/HP/Desktop/BankingSystem",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Users/HP/AppData/Roaming/JetBrains/Rider2024.3/node/versions/22.13.1/node",
-    "nodejs_package_manager_path": "C:\\Users\\HP\\AppData\\Roaming\\JetBrains\\Rider2024.3\\node\\versions\\22.13.1\\npm.cmd",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.59295774",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.BankingSystem: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.BankingSystem: https.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.AccountsToCodyMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ChatTagsLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAccountHistoryMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAccountsIdsRefresh&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyConvertUrlToCodebaseName&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyHistoryLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyMigrateChatHistory-v2&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyProjectSettingsMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.DeprecatedChatLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ToggleCodyToolWindowAfterMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;23.1.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.10.7&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Desktop/BankingSystem&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/HP/AppData/Roaming/JetBrains/Rider2024.3/node/versions/22.13.1/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;C:\\Users\\HP\\AppData\\Roaming\\JetBrains\\Rider2024.3\\node\\versions\\22.13.1\\npm.cmd&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.59295774&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\HP\\Desktop\\BankingSystem\\bank-ui\\bank-ui\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.BankingSystem: https">
     <configuration default="true" type="Application" factoryName="Application" singleton="true">
       <option name="ALTERNATIVE_JRE_PATH" value="23" />
@@ -87,6 +171,21 @@
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankingSystemWeb: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BankingSystemWeb/BankingSystemWeb.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net9.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
       </method>
     </configuration>
     <configuration name="BankingSystem: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -212,6 +311,11 @@
       <workItem from="1738260279270" duration="288000" />
       <workItem from="1738260581106" duration="46000" />
       <workItem from="1738260846236" duration="807000" />
+      <workItem from="1738328268293" duration="87000" />
+      <workItem from="1738328371556" duration="4397000" />
+      <workItem from="1738340345953" duration="124000" />
+      <workItem from="1738340482846" duration="88000" />
+      <workItem from="1738344822428" duration="5679000" />
     </task>
     <servers />
   </component>
