@@ -12,19 +12,22 @@ namespace BankingSystem.Infrastructure;
 
 public static class InfrastructureServiceRegistration
 {
-      public static IServiceCollection ConfigureInfrastructureServices(
-          this IServiceCollection services,
-          IConfiguration configuration)
-      {
-            services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
-            services.AddDbContext<IdentityAppDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("IdentityConnection")));
-            services.AddAutoMapper(typeof(InfrastructureMappingProfile));
-            services.AddScoped<IAccountRepository, AccountRepository>();
-            services.AddScoped<ITransactionRepository, TransactionRepository>();
-            services.AddScoped<IIdentityService, IdentityService>();
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
-            return services;
-      }
+    public static IServiceCollection ConfigureInfrastructureServices(
+        this IServiceCollection services,
+        IConfiguration configuration
+    )
+    {
+        services.AddDbContext<AppDbContext>(options =>
+            options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"))
+        );
+        services.AddDbContext<IdentityAppDbContext>(options =>
+            options.UseSqlServer(configuration.GetConnectionString("IdentityConnection"))
+        );
+        services.AddAutoMapper(typeof(InfrastructureMappingProfile));
+        services.AddScoped<IAccountRepository, AccountRepository>();
+        services.AddScoped<ITransactionRepository, TransactionRepository>();
+        services.AddScoped<IIdentityService, IdentityService>();
+        services.AddScoped<IUnitOfWork, UnitOfWork>();
+        return services;
+    }
 }

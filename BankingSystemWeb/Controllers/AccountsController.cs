@@ -26,7 +26,7 @@ public class AccountsController : ControllerBase
         _currentUserService = currentUserService;
     }
 
-    [HttpPost("/deposit")]
+    [HttpPost("deposit")]
     public async Task<IActionResult> Deposit([FromBody] CreateDepositTransactionRequest dto)
     {
         var sourceAccountId = await _currentUserService.AccountId();
@@ -35,7 +35,7 @@ public class AccountsController : ControllerBase
         return Ok(new { Message = "Deposit successful" });
     }
 
-    [HttpPost("/withdraw")]
+    [HttpPost("withdraw")]
     public async Task<IActionResult> Withdraw([FromBody] CreateWithdrawTransactionRequest dto)
     {
         var sourceAccountId = await _currentUserService.AccountId();
@@ -43,7 +43,7 @@ public class AccountsController : ControllerBase
         return Ok(new { Message = "Withdrawal successful" });
     }
 
-    [HttpPost("/transfer")]
+    [HttpPost("transfer")]
     public async Task<IActionResult> Transfer([FromBody] CreateTransferTransactionRequest dto)
     {
         var sourceAccountId = await _currentUserService.AccountId();
@@ -53,14 +53,14 @@ public class AccountsController : ControllerBase
         return Ok(new { Message = "Transfer successful" });
     }
 
-    [HttpGet("/mine")]
+    [HttpGet("mine")]
     public async Task<ActionResult<AccountDto>> GetMyAccount()
     {
         var account = await _mediator.Send(new GetUserAccountsQuery());
         return Ok(account);
     }
 
-    [HttpGet("/transactions")]
+    [HttpGet("transactions")]
     public async Task<ActionResult<List<TransactionDto>>> GetTransactions()
     {
         var accountId = await _currentUserService.AccountId();

@@ -3,6 +3,5 @@ using MediatR;
 
 namespace BankingSystem.Application.Queries.GetTransactionsByAccountId
 {
-      public record GetTransactionsByAccountIdQuery(Guid AccountId)
-        : IRequest<List<TransactionDto>>;
+    public record GetTransactionsByAccountIdQuery(Guid AccountId) : IRequest<List<TransactionDto>>;
 }

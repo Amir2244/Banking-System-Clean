@@ -9,13 +9,16 @@ public class ExceptionHandlingMiddleware
     private static readonly JsonSerializerOptions _jsonOptions = new()
     {
         PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
-        WriteIndented = true
+        WriteIndented = true,
     };
 
     private readonly ILogger<ExceptionHandlingMiddleware> _logger;
     private readonly RequestDelegate _next;
 
-    public ExceptionHandlingMiddleware(RequestDelegate next, ILogger<ExceptionHandlingMiddleware> logger)
+    public ExceptionHandlingMiddleware(
+        RequestDelegate next,
+        ILogger<ExceptionHandlingMiddleware> logger
+    )
     {
         _next = next;
         _logger = logger;
@@ -44,13 +47,15 @@ public class ExceptionHandlingMiddleware
             case ValidationException validationEx:
                 context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
                 response.Message = "Validation failed";
-                response.Details = string.Join(", ",
-                    validationEx.Errors.Select(e => $"{e.PropertyName}: {e.Message}"));
-                response.ValidationErrors = validationEx.Errors
-                    .Select(error => new ValidationErrorResponse
+                response.Details = string.Join(
+                    ", ",
+                    validationEx.Errors.Select(e => $"{e.PropertyName}: {e.Message}")
+                );
+                response.ValidationErrors = validationEx
+                    .Errors.Select(error => new ValidationErrorResponse
                     {
                         PropertyName = error.PropertyName,
-                        ErrorMessage = error.Message
+                        ErrorMessage = error.Message,
                     })
                     .ToList();
                 break;
@@ -101,8 +106,7 @@ public class ValidationErrorResponse
 
 public static class ExceptionHandlingMiddlewareExtensions
 {
-    public static IApplicationBuilder UseExceptionHandling(
-        this IApplicationBuilder builder)
+    public static IApplicationBuilder UseExceptionHandling(this IApplicationBuilder builder)
     {
         return builder.UseMiddleware<ExceptionHandlingMiddleware>();
     }

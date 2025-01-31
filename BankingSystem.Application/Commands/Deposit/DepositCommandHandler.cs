@@ -9,22 +9,25 @@ namespace BankingSystem.Application.Commands.Deposit;
 
 public class DepositCommandHandler : TransactionalBaseRequestHandler<DepositCommand, Unit>
 {
-      public DepositCommandHandler(IUnitOfWork unitOfWork, ICurrentUserService currentUserService)
-          : base(unitOfWork, currentUserService)
-      {
-      }
+    public DepositCommandHandler(IUnitOfWork unitOfWork, ICurrentUserService currentUserService)
+        : base(unitOfWork, currentUserService) { }
 
-      protected override async Task<Unit> Logic(DepositCommand request, CancellationToken cancellationToken)
-      {
-            var account = await _unitOfWork.Accounts.GetByIdAsync(request.AccountId);
-            account.Deposit(request.Amount);
-            await _unitOfWork.Accounts.UpdateAsync(account);
+    protected override async Task<Unit> Logic(
+        DepositCommand request,
+        CancellationToken cancellationToken
+    )
+    {
+        var account = await _unitOfWork.Accounts.GetByIdAsync(request.AccountId);
+        account.Deposit(request.Amount);
+        await _unitOfWork.Accounts.UpdateAsync(account);
 
-            var transaction = Transaction.CreateInstance(accountId: account.AccountId,
-                type: TransactionType.Deposit,
-                amount: request.Amount);
-            await _unitOfWork.Transactions.AddAsync(transaction);
+        var transaction = Transaction.CreateInstance(
+            accountId: account.AccountId,
+            type: TransactionType.Deposit,
+            amount: request.Amount
+        );
+        await _unitOfWork.Transactions.AddAsync(transaction);
 
-            return Unit.Value;
-      }
+        return Unit.Value;
+    }
 }

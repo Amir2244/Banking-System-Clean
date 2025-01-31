@@ -11,8 +11,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Metalama.Extensions.Architecture" Version="2025.0.8" />
-      <PackageReference Include="Metalama.Extensions.DependencyInjection" Version="2025.0.8" />
       <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
       <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.0" />
       <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.1" />

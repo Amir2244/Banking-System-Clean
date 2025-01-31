@@ -6,10 +6,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-
-    <ItemGroup>
-      <PackageReference Include="Metalama.Extensions.Architecture" Version="2025.0.8" />
-      <PackageReference Include="Metalama.Extensions.DependencyInjection" Version="2025.0.8" />
-    </ItemGroup>
-
 </Project>

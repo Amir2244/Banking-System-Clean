@@ -48,7 +48,7 @@ public class AuthController : ControllerBase
                 Token = token,
                 AccountId = result.AccountId,
                 Email = result.Email,
-                Username = result.UserName
+                Username = result.UserName,
             }
         );
     }
@@ -69,7 +69,7 @@ public class AuthController : ControllerBase
             {
                 Token = token,
                 Email = result.Email,
-                Username = result.UserName
+                Username = result.UserName,
             }
         );
     }
@@ -81,7 +81,7 @@ public class AuthController : ControllerBase
             new Claim(ClaimTypes.NameIdentifier, userId),
             new Claim(ClaimTypes.Email, email),
             new Claim(ClaimTypes.Name, userName),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
         };
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
