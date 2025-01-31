@@ -30,7 +30,7 @@ public class IdentityService : IIdentityService
                 Succeeded = false,
                 Errors = new[]
                 {
-                    new IdentityError(email, "Invalid credentials: email not exists"),
+                    new IdentityError("Email", "Invalid credentials: email not exists"),
                 },
             };
         }
@@ -45,7 +45,7 @@ public class IdentityService : IIdentityService
             UserName = user.UserName,
             Errors = result.Succeeded
                 ? Array.Empty<IdentityError>()
-                : new[] { new IdentityError(password, "Invalid credentials") },
+                : new[] { new IdentityError("Password", "Invalid credentials") },
         };
     }
 

@@ -6,28 +6,27 @@ namespace BankingSystem.Application.Commands.Accounts.Login;
 
 public class LoginUserCommandHandler : IRequestHandler<LoginUserCommand, LoginUserResult>
 {
-      private readonly IIdentityService _identityService;
+    private readonly IIdentityService _identityService;
 
-      public LoginUserCommandHandler(IIdentityService identityService)
-      {
-            _identityService = identityService;
-      }
+    public LoginUserCommandHandler(IIdentityService identityService)
+    {
+        _identityService = identityService;
+    }
 
-      public async Task<LoginUserResult> Handle(LoginUserCommand request, CancellationToken cancellationToken)
-      {
-            var result = await _identityService.ValidateUserAsync(request.Email, request.Password);
+    public async Task<LoginUserResult> Handle(
+        LoginUserCommand request,
+        CancellationToken cancellationToken
+    )
+    {
+        var result = await _identityService.ValidateUserAsync(request.Email, request.Password);
 
-            if (!result.Succeeded)
-            {
-                  throw new ValidationException(
-                      result.Errors.Select(e => new ValidationError("Login", e.Message)).ToList()
-                  );
-            }
-
-            return new LoginUserResult(
-                result.UserId,
-                result.Email,
-                result.UserName
+        if (!result.Succeeded)
+        {
+            throw new ValidationException(
+                result.Errors.Select(e => new ValidationError(e.PropertyName, e.Message)).ToList()
             );
-      }
+        }
+
+        return new LoginUserResult(result.UserId, result.Email, result.UserName);
+    }
 }
