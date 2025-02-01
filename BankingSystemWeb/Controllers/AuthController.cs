@@ -76,12 +76,15 @@ public class AuthController : ControllerBase
 
     private Task<string> GenerateJwtTokenAsync(string email, string userId, string userName)
     {
+        var sessionId = Guid.NewGuid().ToString();
         var claims = new[]
         {
             new Claim(ClaimTypes.NameIdentifier, userId),
             new Claim(ClaimTypes.Email, email),
             new Claim(ClaimTypes.Name, userName),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+            new Claim("SessionId", sessionId),
+            new Claim("LoginTime", DateTime.UtcNow.ToString()),
         };
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));

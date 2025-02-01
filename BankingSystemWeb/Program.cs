@@ -25,14 +25,11 @@ builder
     .AddEntityFrameworkStores<IdentityAppDbContext>()
     .AddDefaultTokenProviders();
 
-// 4. Add Current User Service
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 
-// 5. Add Controllers
 builder.Services.AddControllers();
 
-// 6. Configure JWT Authentication
 builder
     .Services.AddAuthentication(options =>
     {
@@ -52,6 +49,21 @@ builder
             IssuerSigningKey = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])
             ),
+            ValidateTokenReplay = true,
+            AuthenticationType = JwtBearerDefaults.AuthenticationScheme,
+        };
+
+        options.Events = new JwtBearerEvents
+        {
+            OnTokenValidated = async context =>
+            {
+                var sessionId = context.Principal.FindFirst("SessionId")?.Value;
+                if (string.IsNullOrEmpty(sessionId))
+                {
+                    context.Fail("Invalid session");
+                    return;
+                }
+            },
         };
     });
 
