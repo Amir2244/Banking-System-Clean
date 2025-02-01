@@ -1,22 +1,23 @@
 import axios from 'axios';
 import Cookies from 'js-cookie';
 
-export const httpClient = axios.create({
-    baseURL: 'https://localhost:7145', 
+const httpClient = axios.create({
+    baseURL: 'https://localhost:7145',
     headers: {
-        'Content-Type': 'application/json',
-    }
+        'Content-Type': 'application/json'
+    },
+    withCredentials: true
 });
 
-
-httpClient.interceptors.request.use((config) => {
-    const token = Cookies.get('token');
+httpClient.interceptors.request.use(config => {
+    const sessionId = sessionStorage.getItem('sessionId');
+    const token = sessionId ? Cookies.get(`token-${sessionId}`) : null;
+    
     if (token) {
         config.headers.Authorization = `Bearer ${token}`;
     }
     return config;
 });
-
 
 httpClient.interceptors.response.use(
     response => response,
@@ -25,5 +26,6 @@ httpClient.interceptors.response.use(
             throw error.response.data;
         }
         throw error;
-    }
-);
+    });
+
+export { httpClient };

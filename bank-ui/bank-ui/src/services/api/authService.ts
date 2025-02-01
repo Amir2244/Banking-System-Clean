@@ -5,24 +5,25 @@ import Cookies from 'js-cookie';
 export const authService = {
     register: async (data: RegisterDto): Promise<AuthResponse> => {
         const response = await httpClient.post<AuthResponse>('/api/auth/register', data);
-        Cookies.set('token', response.data.token);
+        const sessionId = crypto.randomUUID();
+        Cookies.set('sessionId', sessionId);
+        Cookies.set(`token-${sessionId}`, response.data.token);
+        sessionStorage.setItem('sessionId', sessionId);
+        authService.saveUserSession(response.data);
+        return response.data;
+    },
+
+    login: async (data: LoginDto): Promise<AuthResponse> => {
+        const response = await httpClient.post<AuthResponse>('/api/auth/login', data);
+        const sessionId = crypto.randomUUID();
+        Cookies.set('sessionId', sessionId);
+        Cookies.set(`token-${sessionId}`, response.data.token);
+        sessionStorage.setItem('sessionId', sessionId);
         authService.saveUserSession(response.data);
         return response.data;
     },
 
     saveUserSession(userData: AuthResponse) {
         sessionStorage.setItem('currentUser', JSON.stringify(userData));
-    },
-
-    getUserSession(): AuthResponse | null {
-        const userSession = sessionStorage.getItem('currentUser');
-        return userSession ? JSON.parse(userSession) : null;
-    },
-
-    login: async (data: LoginDto): Promise<AuthResponse> => {
-        const response = await httpClient.post<AuthResponse>('/api/auth/login', data);
-        Cookies.set('token', response.data.token);
-        authService.saveUserSession(response.data);
-        return response.data;
-    },
+    }
 };

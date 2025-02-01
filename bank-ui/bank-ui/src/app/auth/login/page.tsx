@@ -26,7 +26,8 @@ export default function LoginPage() {
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         try {
-            await authService.login(formData);
+            const response =await authService.login(formData);
+            console.log(response);
             router.push('/dashboard');
         } catch (error: any) {
             const validationErrors = error?.validationErrors || [];
