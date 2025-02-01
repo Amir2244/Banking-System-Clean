@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { accountService, AccountDto } from '@/app/services/api/accountService';
+import { accountService, AccountDto } from '@/services/api/accountService';
 
 export default function DashboardLayout({
     children

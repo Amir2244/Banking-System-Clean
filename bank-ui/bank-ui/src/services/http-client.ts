@@ -17,12 +17,13 @@ httpClient.interceptors.request.use((config) => {
     return config;
 });
 
+
 httpClient.interceptors.response.use(
-    (response) => response,
-    (error) => {
-        if (error.response?.status === 404) {
-            console.error('API endpoint not found:', error.config.url);
+    response => response,
+    error => {
+        if (error.response?.status === 400) {
+            throw error.response.data;
         }
-        return Promise.reject(error);
+        throw error;
     }
 );

@@ -34,7 +34,7 @@ export const TransactionModal = ({ isOpen, onClose, type, onSubmit }: Transactio
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
-                        className="fixed inset-0 bg-black/50 backdrop-blur-sm"
+                        className="bg-black/50 fixed inset-0 backdrop-blur-sm"
                         onClick={onClose}
                     />
                     <motion.div
@@ -45,7 +45,7 @@ export const TransactionModal = ({ isOpen, onClose, type, onSubmit }: Transactio
                         className="relative w-full max-w-md rounded-2xl bg-white p-8 shadow-2xl"
                     >
                         <div className="mb-6 flex items-center justify-between">
-                            <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                            <h2 className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-3xl font-bold text-transparent">
                                 {type.charAt(0).toUpperCase() + type.slice(1)}
                             </h2>
                             <button
@@ -62,7 +62,7 @@ export const TransactionModal = ({ isOpen, onClose, type, onSubmit }: Transactio
                                     Amount
                                 </label>
                                 <div className="relative">
-                                    <span className="absolute left-4 top-1/2 -translate-y-1/2 text-xl font-bold text-gray-500">
+                                    <span className="-translate-y-1/2 absolute left-4 top-1/2 text-xl font-bold text-gray-500">
                                         $
                                     </span>
                                     <input
@@ -70,7 +70,7 @@ export const TransactionModal = ({ isOpen, onClose, type, onSubmit }: Transactio
                                         step="0.01"
                                         min="0"
                                         required
-                                        className="w-full rounded-xl border-2 border-gray-200 bg-gray-50 px-10 py-4 text-xl font-bold text-gray-800 transition-all focus:border-blue-500 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-200"
+                                        className="border-2 w-full rounded-xl border-gray-200 bg-gray-50 px-10 py-4 text-xl font-bold text-gray-800 transition-all focus:border-blue-500 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-200"
                                         value={amount || ''}
                                         onChange={(e) => setAmount(Number(e.target.value))}
                                         placeholder="0.00"
@@ -86,7 +86,7 @@ export const TransactionModal = ({ isOpen, onClose, type, onSubmit }: Transactio
                                     <input
                                         type="text"
                                         required
-                                        className="w-full rounded-xl border-2 border-gray-200 bg-gray-50 px-4 py-4 text-lg font-semibold text-gray-800 transition-all focus:border-blue-500 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-200"
+                                        className="border-2 w-full rounded-xl border-gray-200 bg-gray-50 px-4 py-4 text-lg font-semibold text-gray-800 transition-all focus:border-blue-500 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-200"
                                         value={destinationId}
                                         onChange={(e) => setDestinationId(e.target.value)}
                                         placeholder="Enter account ID"
@@ -104,7 +104,7 @@ export const TransactionModal = ({ isOpen, onClose, type, onSubmit }: Transactio
                                 <button
                                     type="button"
                                     onClick={onClose}
-                                    className="flex-1 rounded-xl border-2 border-gray-200 py-4 text-lg font-bold text-gray-600 transition-all hover:bg-gray-50 focus:ring-2 focus:ring-gray-200"
+                                    className="flex-1 border-2 rounded-xl border-gray-200 py-4 text-lg font-bold text-gray-600 transition-all hover:bg-gray-50 focus:ring-2 focus:ring-gray-200"
                                 >
                                     Cancel
                                 </button>

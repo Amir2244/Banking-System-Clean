@@ -3,9 +3,9 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { authService } from '@/app/services/api/authService';
-import { RegisterDto } from '../../types/auth';
-import { ValidationError } from '@/app/types/auth';
+import { authService } from '@/services/api/authService';
+import { RegisterDto } from '../../../types/auth';
+import { ValidationError } from '@/types/auth';
 
 
 const initialFormState: RegisterDto = {
