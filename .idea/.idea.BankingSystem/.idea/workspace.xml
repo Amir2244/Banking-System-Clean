@@ -10,11 +10,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0278bc-a1e1-41ba-8022-df1054ead3dd" name="Changes" comment="">
+    <list default="true" id="af0278bc-a1e1-41ba-8022-df1054ead3dd" name="Changes" comment="(F) Add notification card to prompt when error">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BankingSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BankingSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/components/features/transactions/TransactionModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/components/features/transactions/TransactionModal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/dashboard/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,9 @@
     &quot;assignee&quot;: &quot;Amir2244&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="7c1a31b6-634c-45e0-9e84-4be4397b4e3d" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Amir2244/Banking-System-Clean.git&quot;,
@@ -65,42 +66,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.BankingSystem: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.BankingSystem: https.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.AccountsToCodyMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ChatTagsLlmMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.CodyAccountHistoryMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.CodyAccountsIdsRefresh&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.CodyConvertUrlToCodebaseName&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.CodyHistoryLlmMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.CodyMigrateChatHistory-v2&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.CodyProjectSettingsMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.DeprecatedChatLlmMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ToggleCodyToolWindowAfterMigration&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;23.1.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.10.7&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Desktop/BankingSystem&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/HP/AppData/Roaming/JetBrains/Rider2024.3/node/versions/22.13.1/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;C:\\Users\\HP\\AppData\\Roaming\\JetBrains\\Rider2024.3\\node\\versions\\22.13.1\\npm.cmd&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.59295774&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\HP\\Desktop\\BankingSystem\\bank-ui\\bank-ui\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.BankingSystem: http.executor": "Run",
+    ".NET Launch Settings Profile.BankingSystem: https.executor": "Run",
+    "RunOnceActivity.AccountsToCodyMigration": "true",
+    "RunOnceActivity.ChatTagsLlmMigration": "true",
+    "RunOnceActivity.CodyAccountHistoryMigration": "true",
+    "RunOnceActivity.CodyAccountsIdsRefresh": "true",
+    "RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount": "true",
+    "RunOnceActivity.CodyConvertUrlToCodebaseName": "true",
+    "RunOnceActivity.CodyHistoryLlmMigration": "true",
+    "RunOnceActivity.CodyMigrateChatHistory-v2": "true",
+    "RunOnceActivity.CodyProjectSettingsMigration": "true",
+    "RunOnceActivity.DeprecatedChatLlmMigration": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.ToggleCodyToolWindowAfterMigration": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "23.1.0",
+    "javascript.nodejs.core.library.typings.version": "22.10.7",
+    "last_opened_file_path": "C:/Users/HP/Desktop/BankingSystem",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/HP/AppData/Roaming/JetBrains/Rider2024.3/node/versions/22.13.1/node",
+    "nodejs_package_manager_path": "C:\\Users\\HP\\AppData\\Roaming\\JetBrains\\Rider2024.3\\node\\versions\\22.13.1\\npm.cmd",
+    "npm.dev.executor": "Run",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.59295774",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "C:\\Users\\HP\\Desktop\\BankingSystem\\bank-ui\\bank-ui\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.BankingSystem: https">
+}]]></component>
+  <component name="RunManager" selected="npm.dev">
     <configuration default="true" type="Application" factoryName="Application" singleton="true">
       <option name="ALTERNATIVE_JRE_PATH" value="23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -209,6 +211,25 @@
       <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/bank-ui/bank-ui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.BankingSystem: http" />
+      <item itemvalue=".NET Launch Settings Profile.BankingSystem: https" />
+      <item itemvalue=".NET Launch Settings Profile.BankingSystemWeb: IIS Express" />
+      <item itemvalue="Docker.BankingSystem/Dockerfile" />
+      <item itemvalue="Docker.BankingSystemWeb/Dockerfile" />
+      <item itemvalue="Docker.compose.yaml: Compose Deployment" />
+      <item itemvalue="npm.dev" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -255,7 +276,20 @@
       <workItem from="1738371136230" duration="17000" />
       <workItem from="1738371419881" duration="111000" />
       <workItem from="1738371542065" duration="137000" />
+      <workItem from="1738522920826" duration="333000" />
+      <workItem from="1738524161876" duration="57000" />
+      <workItem from="1738524224559" duration="268000" />
+      <workItem from="1738524597984" duration="1488000" />
     </task>
+    <task id="LOCAL-00001" summary="(F) Add notification card to prompt when error">
+      <option name="closed" value="true" />
+      <created>1738525739536</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738525739538</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +299,8 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="(F) Add notification card to prompt when error" />
+    <option name="LAST_COMMIT_MESSAGE" value="(F) Add notification card to prompt when error" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
