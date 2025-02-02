@@ -27,7 +27,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{C7B0DF80-1BF4-4A66-B135-D791DBE61791}"
 EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "bank-ui", "bank-ui\bank-ui.esproj", "{8087CB0F-57C3-498D-94FD-F580D9A38CF8}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "bank-system", "bank-system\bank-system.esproj", "{8087CB0F-57C3-498D-94FD-F580D9A38CF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
