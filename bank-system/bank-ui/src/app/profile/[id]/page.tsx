@@ -2,9 +2,10 @@
 
 import { useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
-import { accountService, AccountDto } from '@/services/api/accountService';
+import { accountService } from '@/services/api/accountService';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeftIcon, CreditCardIcon, UserCircleIcon, ShieldCheckIcon } from '@heroicons/react/24/outline';
+import {AccountDto} from "@/types/user";
 
 const containerVariants = {
   hidden: { opacity: 0 },

@@ -4,10 +4,11 @@ import { useState } from 'react';
 import useSWR from 'swr';
 import Link from 'next/link';
 import { UserCircleIcon, ArrowDownIcon, ArrowUpIcon, ArrowsRightLeftIcon } from '@heroicons/react/24/solid';
-import { accountService, AccountDto, TransactionDto } from '@/services/api/accountService';
+import { accountService } from '@/services/api/accountService';
 import { TransactionModal } from '@/components/features/transactions/TransactionModal';
 import { ValidationError } from '@/types/auth';
 import { AnimatePresence, motion } from 'framer-motion';
+import {AccountDto, TransactionDto} from "@/types/user";
 
 const containerVariants = {
     hidden: { opacity: 0 },
