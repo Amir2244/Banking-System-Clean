@@ -10,10 +10,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0278bc-a1e1-41ba-8022-df1054ead3dd" name="Changes" comment="(B) Update Auth Controller to work with JWT service">
-      <change afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/types/user.ts" afterDir="false" />
+    <list default="true" id="af0278bc-a1e1-41ba-8022-df1054ead3dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BankingSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BankingSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-system/bank-ui/src/services/api/accountService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/services/api/accountService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystemWeb/BankingSystemWeb.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystemWeb/BankingSystemWeb.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystemWeb/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystemWeb/Properties/launchSettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +79,7 @@
   "keyToString": {
     ".NET Launch Settings Profile.BankingSystem: http.executor": "Run",
     ".NET Launch Settings Profile.BankingSystem: https.executor": "Run",
+    ".NET Launch Settings Profile.BankingSystemWeb: IIS Express.executor": "Run",
     "RunOnceActivity.AccountsToCodyMigration": "true",
     "RunOnceActivity.ChatTagsLlmMigration": "true",
     "RunOnceActivity.CodyAccountHistoryMigration": "true",
@@ -111,7 +112,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.BankingSystem: https">
+  <component name="RunManager" selected="npm.dev">
     <configuration default="true" type="Application" factoryName="Application" singleton="true">
       <option name="ALTERNATIVE_JRE_PATH" value="23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -288,7 +289,8 @@
       <workItem from="1738522920826" duration="333000" />
       <workItem from="1738524161876" duration="57000" />
       <workItem from="1738524224559" duration="268000" />
-      <workItem from="1738524597984" duration="9570000" />
+      <workItem from="1738524597984" duration="9953000" />
+      <workItem from="1738538915396" duration="387000" />
     </task>
     <task id="LOCAL-00001" summary="(F) Add notification card to prompt when error">
       <option name="closed" value="true" />
@@ -410,7 +412,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738533739400</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="(F) Place DTOs in types folder">
+      <option name="closed" value="true" />
+      <created>1738534357309</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1738534357309</updated>
+    </task>
+    <task id="LOCAL-00017" summary="(F) Update imports for replaced DTOs">
+      <option name="closed" value="true" />
+      <created>1738534378592</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738534378592</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +453,9 @@
     <MESSAGE value="(F) Enhance the layout page style" />
     <MESSAGE value="(F) Update Node project name" />
     <MESSAGE value="(B) Update Auth Controller to work with JWT service" />
-    <option name="LAST_COMMIT_MESSAGE" value="(B) Update Auth Controller to work with JWT service" />
+    <MESSAGE value="(F) Place DTOs in types folder" />
+    <MESSAGE value="(F) Update imports for replaced DTOs" />
+    <option name="LAST_COMMIT_MESSAGE" value="(F) Update imports for replaced DTOs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
