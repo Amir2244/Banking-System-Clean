@@ -10,9 +10,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0278bc-a1e1-41ba-8022-df1054ead3dd" name="Changes" comment="(F) Add notification card to prompt when error">
+    <list default="true" id="af0278bc-a1e1-41ba-8022-df1054ead3dd" name="Changes" comment="(F) Notification needed only in dashboard">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BankingSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BankingSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bank-ui/bank-ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bank-ui/bank-ui/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/dashboard/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/services/api/accountService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-ui/bank-ui/src/services/api/accountService.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +282,7 @@
       <workItem from="1738522920826" duration="333000" />
       <workItem from="1738524161876" duration="57000" />
       <workItem from="1738524224559" duration="268000" />
-      <workItem from="1738524597984" duration="1488000" />
+      <workItem from="1738524597984" duration="6084000" />
     </task>
     <task id="LOCAL-00001" summary="(F) Add notification card to prompt when error">
       <option name="closed" value="true" />
@@ -289,7 +292,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738525739538</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="(F) Add showing the notification ability">
+      <option name="closed" value="true" />
+      <created>1738526192957</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738526192957</updated>
+    </task>
+    <task id="LOCAL-00003" summary="(F) Notification needed only in dashboard">
+      <option name="closed" value="true" />
+      <created>1738526285710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738526285710</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +319,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="(F) Add notification card to prompt when error" />
-    <option name="LAST_COMMIT_MESSAGE" value="(F) Add notification card to prompt when error" />
+    <MESSAGE value="(F) Add showing the notification ability" />
+    <MESSAGE value="(F) Notification needed only in dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="(F) Notification needed only in dashboard" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
