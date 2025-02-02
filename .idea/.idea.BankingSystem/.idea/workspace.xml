@@ -10,49 +10,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0278bc-a1e1-41ba-8022-df1054ead3dd" name="Changes" comment="(F) Enhance the layout page style">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BankingSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BankingSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankingSystem.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/.idea/bank-ui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/.idea/bank-ui.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/.next/trace" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/.next/trace" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui.esproj" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-system.esproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui.njsproj" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui.njsproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/eslint.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/postcss.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/postcss.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/public/file.svg" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/public/file.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/public/globe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/public/globe.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/public/next.svg" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/public/next.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/public/vercel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/public/vercel.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/public/window.svg" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/public/window.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/auth/login/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/app/auth/login/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/auth/register/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/app/auth/register/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/dashboard/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/app/dashboard/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/app/dashboard/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/app/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/globals.output.css" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/app/globals.output.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/profile/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/app/profile/[id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/components/features/transactions/TransactionModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/components/features/transactions/TransactionModal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/middleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/services/api/accountService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/services/api/accountService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/services/api/authService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/services/api/authService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/services/http-client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/services/http-client.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/types/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/src/types/auth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/tailwind.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/bank-ui/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bank-system/package-lock.json" afterDir="false" />
+    <list default="true" id="af0278bc-a1e1-41ba-8022-df1054ead3dd" name="Changes" comment="(F) Update Node project name">
+      <change beforePath="$PROJECT_DIR$/BankingSystemWeb/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystemWeb/Controllers/AuthController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,7 +279,7 @@
       <workItem from="1738522920826" duration="333000" />
       <workItem from="1738524161876" duration="57000" />
       <workItem from="1738524224559" duration="268000" />
-      <workItem from="1738524597984" duration="8654000" />
+      <workItem from="1738524597984" duration="8951000" />
     </task>
     <task id="LOCAL-00001" summary="(F) Add notification card to prompt when error">
       <option name="closed" value="true" />
@@ -426,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738532608298</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="(F) Update Node project name">
+      <option name="closed" value="true" />
+      <created>1738533375614</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1738533375614</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +416,8 @@
     <MESSAGE value="(F) Enhance Profile info page" />
     <MESSAGE value="(F) Set up the default home page" />
     <MESSAGE value="(F) Enhance the layout page style" />
-    <option name="LAST_COMMIT_MESSAGE" value="(F) Enhance the layout page style" />
+    <MESSAGE value="(F) Update Node project name" />
+    <option name="LAST_COMMIT_MESSAGE" value="(F) Update Node project name" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
