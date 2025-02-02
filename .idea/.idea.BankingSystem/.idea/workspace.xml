@@ -10,12 +10,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0278bc-a1e1-41ba-8022-df1054ead3dd" name="Changes" comment="(F) Notification needed only in dashboard">
+    <list default="true" id="af0278bc-a1e1-41ba-8022-df1054ead3dd" name="Changes" comment="(F) Bug fix about transfer type appearance">
+      <change afterPath="$PROJECT_DIR$/BankingSystemWeb/Configuration/JwtSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankingSystemWeb/Extenstions/ServiceCollectionExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankingSystemWeb/Services/Auth/IJwtService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BankingSystemWeb/Services/Auth/JwtService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BankingSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BankingSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bank-ui/bank-ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bank-ui/bank-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankingSystemWeb/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystemWeb/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/dashboard/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/dashboard/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/dashboard/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/dashboard/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/services/api/accountService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/bank-ui/bank-ui/src/services/api/accountService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/profile/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/bank-ui/bank-ui/src/app/profile/[id]/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +111,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected=".NET Launch Settings Profile.BankingSystem: https">
     <configuration default="true" type="Application" factoryName="Application" singleton="true">
       <option name="ALTERNATIVE_JRE_PATH" value="23" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -282,7 +288,7 @@
       <workItem from="1738522920826" duration="333000" />
       <workItem from="1738524161876" duration="57000" />
       <workItem from="1738524224559" duration="268000" />
-      <workItem from="1738524597984" duration="6084000" />
+      <workItem from="1738524597984" duration="7746000" />
     </task>
     <task id="LOCAL-00001" summary="(F) Add notification card to prompt when error">
       <option name="closed" value="true" />
@@ -308,7 +314,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738526285710</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="(F) Add profile details page">
+      <option name="closed" value="true" />
+      <created>1738530725206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738530725206</updated>
+    </task>
+    <task id="LOCAL-00005" summary="(F) Bug fix about transfer type appearance">
+      <option name="closed" value="true" />
+      <created>1738530769455</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738530769455</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +343,9 @@
     <MESSAGE value="(F) Add notification card to prompt when error" />
     <MESSAGE value="(F) Add showing the notification ability" />
     <MESSAGE value="(F) Notification needed only in dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="(F) Notification needed only in dashboard" />
+    <MESSAGE value="(F) Add profile details page" />
+    <MESSAGE value="(F) Bug fix about transfer type appearance" />
+    <option name="LAST_COMMIT_MESSAGE" value="(F) Bug fix about transfer type appearance" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
